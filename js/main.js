@@ -11,7 +11,14 @@ console.log(utenteKm)
 
 // Quanti anni ha l'utente
 
+let utenteEta = parseInt(prompt("Qual'è la sua età?"))
+
+console.log(utenteEta)
+
+
 // Se il cliente è minorenne verrà applicato lo sconto del 20%
+
+
 
 // Se il cliente è adulto pagherà il prezzo pieno
 
