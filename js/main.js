@@ -1,5 +1,13 @@
+const prezzoKm = 0.21
+
+console.log(prezzoKm)
+
 
 // Quanti chilometri vuole percorrere l'utente
+
+let utenteKm = parseInt(prompt("Quanti chilometri vuole percorrere?"))
+
+console.log(utenteKm)
 
 // Quanti anni ha l'utente
 
