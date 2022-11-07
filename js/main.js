@@ -1,22 +1,27 @@
 
-const prezzoKm = 0.21
+const prezzoKm = 0.21;
+
 
 console.log(prezzoKm)
+
+// Variabili
+
+let utenteKm, utenteEta, sconto;
 
 
 // Quanti chilometri vuole percorrere l'utente?
 
-let utenteKm = parseInt(prompt("Quanti chilometri vuole percorrere?"))
+utenteKm = parseInt(prompt("Quanti chilometri vuole percorrere?"))
 
 console.log(utenteKm)
 
 // Quanti anni ha l'utente?
 
-let utenteEta = parseInt(prompt("Qual'è la sua età?"))
+utenteEta = parseInt(prompt("Qual'è la sua età?"))
 
 console.log(utenteEta)
 
-let sconto = 0;
+sconto = 0;
 
 if (utenteEta < 18){
     sconto = 20;
