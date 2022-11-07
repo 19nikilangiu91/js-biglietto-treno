@@ -40,5 +40,9 @@ console.log(prezzoScontato)
 
 // Output
 
+document.getElementById("title").innerHTML= `Con l'acquisto di questo biglietto,
+potrà percorrere ${utenteKm}Km e avendo ${utenteEta} anni, avrà il diritto di uno
+sconto del ${sconto}%, il suo prezzo sarà di ${prezzoTotale}€ e il suo prezzo scontato totale sarà di ${prezzoScontato}€.`
+
 
 
