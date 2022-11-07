@@ -1,3 +1,4 @@
+
 const prezzoKm = 0.21
 
 console.log(prezzoKm)
@@ -25,14 +26,19 @@ if (utenteEta < 18){
 
 console.log(sconto)
 
+// Calcolare il prezzo totale del biglietto
 
-// Se il cliente è minorenne verrà applicato lo sconto del 20%
+const prezzoTotale = prezzoKm * utenteKm;
 
+console.log(prezzoTotale)
 
-// Se il cliente è adulto pagherà il prezzo pieno
+// Calcolare il prezzo scontanto del biglietto
 
+const prezzoScontato = prezzoTotale * (100 - sconto) / 100;
 
-// Se il cliente è anziano verrà applicato lo sconto del 40%
+console.log(prezzoScontato)
 
 // Output
+
+
 
