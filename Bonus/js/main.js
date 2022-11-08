@@ -51,5 +51,5 @@ potrà percorrere ${utenteKm}Km.`
 document.getElementById("divtwo").innerHTML= `Avendo ${utenteEta} anni, avrà il diritto di uno
 sconto del ${sconto}%, il suo prezzo sarà di ${prezzoTotale}€`
 
-document.getElementById("divthree").innerHTML= `Il suo prezzo scontato totale sarà di ${prezzoScontato}€.`
+document.getElementById("divthree").innerHTML= `Il suo prezzo scontato totale sarà di ${prezzoScontato.toFixed(2)}€.`
 
